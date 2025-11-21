@@ -1,0 +1,22 @@
+phoenix-rise/
+├─ README.md
+├─ package.json
+├─ .github/
+│  └─ workflows/ci.yml
+├─ web/                      # Next.js app
+│  ├─ app/                   # Next 13+ app router
+│  ├─ components/
+│  ├─ pages/                 # or app/ routes
+│  ├─ styles/
+│  ├─ lib/
+│  │  ├─ supabaseClient.js
+│  │  ├─ stripeServer.js
+│  └─ public/
+├─ functions/                # Edge functions (Vercel) or Next API routes
+├─ mobile/                   # Expo app (React Native)
+│  ├─ app.json
+│  └─ src/
+├─ infra/
+│  └─ supabase/              # declarative DB schemas (SQL)
+└─ docs/
+   └─ design-system.md
